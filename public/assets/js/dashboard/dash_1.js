@@ -537,10 +537,7 @@ chart.render();
 
 /*
     =============================================
-        Perfect Scrollbar | Recent Activities
-    =============================================
-*/
-const ps = new PerfectScrollbar(document.querySelector('.mt-container'));
+
 
 filterDropdown();
 
