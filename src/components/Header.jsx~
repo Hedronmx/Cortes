@@ -24,7 +24,7 @@ export default class Header extends Component {
             <ul className="navbar-item flex-row nav-dropdowns">
 
                 <li className="nav-item dropdown user-profile-dropdown order-lg-0 order-1">
-                    <a href="/#" className="nav-link dropdown-toggle user" id="user-profile-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="javascript:void(0);" className="nav-link dropdown-toggle user" id="user-profile-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div className="media">
                             <img src="assets/img/90x90.jpg" className="img-fluid" alt="admin-profile"/>
                             <div className="media-body align-self-center">
