@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Users, DollarSign, BarChart, Clipboard, File } from 'react-feather'
+import {File } from 'react-feather'
 
 export default class Usuario extends Component {
 	render (){

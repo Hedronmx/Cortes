@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header.jsx'
 import Topbar from './components/Topbar.jsx'
-import Content from './components/Content.jsx'
-import FormaRegistro from './components/FormaRegistro.jsx'
-import Usuario from './components/Usuario.jsx'
+// import Content from './components/Content.jsx'
+// import FormaRegistro from './components/FormaRegistro.jsx'
+// import Usuario from './components/Usuario.jsx'
 import Usuarios from './components/Usuarios.jsx'
 
 function App() {
