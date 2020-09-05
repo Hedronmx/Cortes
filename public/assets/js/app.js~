@@ -72,7 +72,35 @@ var App = function() {
         }
     }
 
-
+    var mobileFunctions = {
+        activateScroll: function() {
+            const ps = new PerfectScrollbar('#topbar', {
+                wheelSpeed:.5,
+                swipeEasing:!0,
+                minScrollbarLength:40,
+                maxScrollbarLength:300
+            });
+        },
+    }
+    var desktopFunctions = {
+        activateScroll: function() {
+            const desktopFncScroll = new PerfectScrollbar('.menu-categories li.menu .submenu', {
+                wheelSpeed:.5,
+                swipeEasing:!0,
+                minScrollbarLength:40,
+                maxScrollbarLength:300
+            });
+        },
+        preventAccordionOnClick: function() {
+            $('.menu > a[data-toggle="collapse"], .menu.single-menu  a[data-toggle="collapse"]').click(function(e){
+                getWindowWidth = window.innerWidth;
+                if (getWindowWidth > 991) {
+                    e.preventDefault(); // to stop the page jump to the anchor target.
+                    e.stopPropagation();
+                }
+            })
+        }
+    }
 
     var inBuiltfunctionality = {
         preventScrollBody: function() {
