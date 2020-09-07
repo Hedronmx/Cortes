@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 export default class FormaRegistro extends Component {
+
 	render () {
 		return (
 			<form className="contenido">

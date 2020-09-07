@@ -38,10 +38,6 @@
 }
 
 .contenido{
-	padding:3%;
+	padding:8%;
 }
 
-.linki {
-	padding-left: 2%;
-	padding-top: 0.5%;
-}
